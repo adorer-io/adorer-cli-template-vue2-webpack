@@ -3,12 +3,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import routes from './router'
 import store from './store'
+import inject from './plugin/inject'
 import VueRouter from 'vue-router';
 const packageName = require('../package.json').appName
 
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+Vue.use(inject)
 let router = null;
 let instance = null;
 function render(props = {}) {

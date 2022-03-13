@@ -3,8 +3,9 @@
   "appName": "adorer-cli-template-vue2-webpack",
   "version": "0.1.0",
   "private": true,
+  "author": "showkw<showkw@163.com>",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -20,6 +21,8 @@
     "@vue/cli-service": "~4.5.15",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "url-loader": "^4.1.1",
+    "webpack": "~4.46.0"
   }
 }
