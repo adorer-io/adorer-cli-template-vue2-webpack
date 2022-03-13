@@ -22,6 +22,7 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.11",
+    "regenerator-runtime": "^0.13.9",
     "url-loader": "^4.1.1",
     "webpack": "~4.46.0"
   }
