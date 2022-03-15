@@ -1,5 +1,5 @@
 <template>
-  <div id="azure-cloud-base">
+  <div id="adorer-cloud-base">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
